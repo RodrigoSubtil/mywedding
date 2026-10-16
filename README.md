@@ -31,7 +31,7 @@ pnpm build
 pnpm preview
 ```
 
-`check` executa lint, tipos e formatação. `build` exporta para `out/`; `python scripts/verify_landing.py` confere as nove rotas públicas, referências locais, traduções e integridade dos assets. `preview` serve **somente os ficheiros estáticos** em [127.0.0.1:4173](http://127.0.0.1:4173/). Não usar `next start` para esta exportação. A configuração de GitHub Actions está preparada; não foi executada em CI nem cria um repositório remoto.
+`check` executa lint, tipos e formatação. `build` exporta para `out/`; `python scripts/verify_landing.py` confere as nove rotas públicas, referências locais, traduções e integridade dos assets. `preview` serve **somente os ficheiros estáticos** em [127.0.0.1:4173](http://127.0.0.1:4173/). Não usar `next start` para esta exportação. GitHub Actions executa qualidade/build/verificadores, sem deploy; a primeira execução em D24 foi aprovada, conforme o registo abaixo.
 
 ## Ler primeiro
 
@@ -93,6 +93,8 @@ Confirmação de e-mail ligada, senha mínima de 12 caracteres e reautenticaçã
 ## Repositório GitHub — D24
 
 Destino autorizado por Rodrigo: [RodrigoSubtil/mywedding](https://github.com/RodrigoSubtil/mywedding), público e inicialmente vazio. Git local usa `main` e `origin` neste endereço. O pedido cobre código, documentação, guia/tokens, assets/licenças e ferramentas; não cobre deploy, alterações no Supabase hospedado ou publicar o simulador. O pipeline de qualidade só verifica a landing e documentação, sem implantação.
+
+Envio inicial concluído em 16/10/2026: commit `36616be`, SHA local/remoto iguais, árvore limpa e [CI aprovada](https://github.com/RodrigoSubtil/mywedding/actions/runs/38932507252). [Registo e limites](output/reports/github-envio-2026-10-16.json). Este registo identifica o commit inicial; commits documentais posteriores conservam seu próprio histórico/CI. A identidade de Git existente foi preservada; nesta máquina foi adicionada confiança apenas no caminho exato do projeto, pois a pasta pertence ao grupo Administradores.
 
 Antes de cada envio, conferir `git status`, alterações e ficheiros ignorados; nunca adicionar segredos ou dados privados com `git add -f`. Depois de preparar o stage, `node scripts/verify-git-upload.mjs` verifica caminhos e padrões comuns, sem imprimir segredos; não certifica binários ou segurança absoluta. O sucesso do envio exige igualdade entre SHA local e remoto. `pnpm check`, `pnpm build` e os verificadores Python dão evidência local; o resultado de GitHub Actions é verificado separadamente após o push.
 

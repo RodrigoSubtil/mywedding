@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-16",
+  "scope": "Initial GitHub upload and CI only; no site deployment, hosted Supabase change or login integration.",
+  "repository": "https://github.com/RodrigoSubtil/mywedding",
+  "visibility": "public",
+  "branch": "main",
+  "initialCommit": "36616be0aeb752fa5fd2ea9ae58bac3f4a2afef0",
+  "remoteShaMatchedLocal": true,
+  "workingTreeCleanAfterInitialPush": true,
+  "ci": {
+    "runId": 38932507252,
+    "url": "https://github.com/RodrigoSubtil/mywedding/actions/runs/38932507252",
+    "headSha": "36616be0aeb752fa5fd2ea9ae58bac3f4a2afef0",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "included": ["source", "documentation", "style guide and tokens", "assets and licenses", "local tools", "non-secret Supabase config"],
+  "excluded": ["private files", "credentials", "Supabase runtime secrets", "node_modules", "build output", "Docker containers and volumes"],
+  "limits": "Common staged secret patterns and path exclusions were checked. This is not a security certification. Follow-up documentation commits are separate from the initial commit recorded here."
+}

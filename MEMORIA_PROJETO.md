@@ -1,6 +1,6 @@
 # MyWedding: memória principal do projeto
 
-Atualizada em **16/10/2026**, incluindo preparação/provisão do acesso (D20), segurança (D21) avaliação de servidor/e-mails (D22), ambiente local Docker/Supabase/Mailpit (D23) e envio autorizado ao GitHub antes do login (D24). Esta base orienta a continuidade; instruções novas dos fundadores prevalecem. O [README](README.md) é o índice e [AGENTS](AGENTS.md) define o procedimento de trabalho.
+Atualizada em **16/10/2026**, incluindo preparação/provisão do acesso (D20), segurança (D21), avaliação de servidor/e-mails (D22), ambiente local Docker/Supabase/Mailpit (D23) e envio ao GitHub antes do login (D24). Esta base orienta a continuidade; instruções novas dos fundadores prevalecem. O [README](README.md) é o índice e [AGENTS](AGENTS.md) define o procedimento de trabalho.
 
 ## Direção confirmada
 
@@ -32,7 +32,7 @@ Na continuidade de 16/10/2026, Rodrigo pediu avaliar servidor/e-mails sem gasto 
 
 **Continuidade D23:** o Docker Desktop Linux foi iniciado e Supabase CLI 2.121.0 preparou o projeto local `MyWedding`. Sete serviços essenciais em execução; Auth, Studio e Mailpit responderam HTTP 200 após stop/start. Portas publicadas apenas em `127.0.0.1`, confirmação ligada, senha mínima 12 e alteração protegida por reautenticação. O default da rede não bastou: o helper local fixa bindings explícitos, conserva volumes e originais parados. Serviços opcionais parados/configurados desligados; Rommus e Order Manager mantiveram IDs/estados. Dependências Supabase/SSR/Zod exatas instaladas; zero contas Auth e zero tabelas da aplicação na consulta. [Processo, comandos, evidência e limites](docs/planeamento/CONSTRUCAO_DO_ACESSO.md#ambiente-local-preparado--16102026-d23). Cadastro, sessão, recuperação, RLS/MFA e envio ainda não foram testados; build estático e telas demonstrativas preservados.
 
-**Continuidade D24:** Git local inicializado em `main`, `origin` aponta para [RodrigoSubtil/mywedding](https://github.com/RodrigoSubtil/mywedding), criado por Rodrigo, público e vazio na consulta. Envio de código/documentação autorizado antes do login; credenciais, `.env*`, `private/`, temporários Supabase, dependências e builds ficam excluídos. Commit/push exigem conferência do SHA remoto e CI separada; guardar o projeto não publica o site nem altera o Supabase hospedado.
+**Continuidade D24:** projeto/documentação enviados ao [RodrigoSubtil/mywedding](https://github.com/RodrigoSubtil/mywedding), criado por Rodrigo e público; branch `main`, `origin` neste destino. Envio inicial `36616be` confirmado por SHA local/remoto iguais, árvore limpa e GitHub Actions aprovada. [Registo inicial](output/reports/github-envio-2026-10-16.json); commits posteriores têm evidência própria. Credenciais, `.env*`, `private/`, temporários Supabase, dependências e builds excluídos. Guardar o projeto não publica o site nem altera o Supabase hospedado. Próximo passo: modo servidor explícito e integração local do acesso, mantendo os limites D23.
 
 Existem estudo de mercado de 19 referências, revisão de nove landings, propostas de produto/operação, arquitetura aprovada e identidade v1 com HTML, fontes/licenças, tokens, preview e PDF de cinco páginas. A revisão atual reorganizou as pastas e separou cenários superados do plano ativo.
 

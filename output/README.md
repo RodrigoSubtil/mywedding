@@ -21,7 +21,7 @@ Esta pasta contém exportações e evidência de verificação. As fontes editá
 
 Não editar derivados como forma de mudar a decisão: alterar a fonte correspondente e regenerar/verificar quando necessário. Relatórios de execução podem incluir data técnica em UTC; a data da revisão documental está indicada nos documentos.
 
-Envio inicial ao GitHub D24: [revisão do stage](reports/git-upload-audit-2026-10-16.json) confere caminhos, tamanhos e padrões comuns de segredos; [verificação documental D23/D24](reports/docker-local-documentacao-2026-10-16.json) confere referências e integridade. Não são certificação de segurança ou confirmação de push; envio é comprovado pelo SHA remoto e CI tem resultado próprio.
+Envio inicial ao GitHub D24: [registo de push/CI](reports/github-envio-2026-10-16.json) identifica commit inicial, SHA remoto conferido e Actions aprovada. [Revisão do stage](reports/git-upload-audit-2026-10-16.json) confere caminhos, tamanhos e padrões comuns de segredos; [verificação documental D23/D24](reports/docker-local-documentacao-2026-10-16.json) confere referências e integridade. Não são certificação de segurança; commits posteriores têm histórico/CI próprios.
 
 Preparação do acesso em 16/10/2026: [captura do projeto Supabase](reports/supabase-myWedding-2026-10-16.jpg) confirma nome, estado Healthy e região; [verificação documental](reports/acesso-preparacao-verification-2026-10-16.json) cobre links/integridade. Nenhum destes artefactos comprova login, isolamento, recuperação ou pagamentos. A fonte do processo e dos limites é [Construção do acesso](../docs/planeamento/CONSTRUCAO_DO_ACESSO.md).
 

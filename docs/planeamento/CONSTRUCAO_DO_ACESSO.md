@@ -218,7 +218,7 @@ Dados pessoais reais e envio para pessoas externas não fazem parte de uma prova
 | 16/10/2026 | Requisito de segurança reforçado por Rodrigo | D21 documenta condições de acesso/dados e da futura parte financeira; não é auditoria nem implementação concluída |
 | 16/10/2026 | Avaliação de servidor e e-mails sem gasto — D22 | Fontes oficiais revalidadas, metadados npm consultados e scanner vinext executado; ambiente de e-mail local ainda não iniciado, integração/produção não demonstradas |
 | 16/10/2026 | Preparação local autorizada e concluída — D23 | Docker/Supabase/Mailpit em loopback, confirmação ligada, senha mínima 12, stop/start e HTTP verificados; sem contas, tabelas da aplicação, integração das telas ou publicação |
-| 16/10/2026 | GitHub antes da integração — D24 | Rodrigo criou `RodrigoSubtil/mywedding` e autorizou enviar o projeto/documentação antes do login; destino público e vazio conferido; segredos/temporários excluídos |
+| 16/10/2026 | GitHub antes da integração — D24 | Projeto/documentação enviados para `RodrigoSubtil/mywedding`, público, `main`; commit inicial `36616be`, SHA remoto igual e CI aprovada; [registo](../../output/reports/github-envio-2026-10-16.json). Segredos/temporários excluídos; sem deploy ou login integrado |
 
 Verificação documental da provisão/segurança D20/D21: [relatório inicial](../../output/reports/acesso-preparacao-verification-2026-10-16.json). Reavaliação de servidor/e-mail D22: [relatório documental](../../output/reports/servidor-email-documentacao-verification-2026-10-16.json). Estes relatórios conferem referências e integridade documental; não auditam o projeto Supabase ou o login.
 
