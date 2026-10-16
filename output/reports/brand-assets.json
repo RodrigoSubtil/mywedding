@@ -1,0 +1,19 @@
+{
+  "generated": "2026-10-15",
+  "selected": "Folha integrada ao ponto do i; Fraunces 500, ponto final terracota e recortes nas letras preservados por pedido de Rodrigo.",
+  "fill_rule": "evenodd",
+  "source_font": "design/fonts/fraunces-variable.ttf",
+  "font_sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+  "axes": {
+    "wght": 500,
+    "opsz": 24,
+    "SOFT": 50,
+    "WONK": 1
+  },
+  "output": "public/brand/mywedding.svg",
+  "width": 160,
+  "height": 36,
+  "bytes": 13654,
+  "sha256": "389655d31941565bd6b6345e76460695af90844cb1d1b89397e66d06d66eaf5c",
+  "transparency": "Fundo e nervura transparentes; contornos das letras aprovadas preservados."
+}

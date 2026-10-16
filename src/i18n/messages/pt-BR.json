@@ -1,0 +1,236 @@
+{
+  "Landing": {
+    "meta": {
+      "title": "MyWedding — Seu casamento, com a sua identidade",
+      "description": "Um lugar especial para a história de vocês. Explore modelos de sites de casamento e descubra uma forma mais leve de reunir todos os detalhes."
+    },
+    "hero": {
+      "eyebrow": "PARA O DIA DE VOCÊS. E TUDO QUE VEM ANTES.",
+      "title": "Seu casamento, com a sua identidade.",
+      "description": "Uma história que merece um lugar só dela. Um site para reunir os detalhes, compartilhar a alegria e ter por perto quem faz parte de vocês.",
+      "primary": "Encontre seu estilo",
+      "secondary": "Ver demonstração",
+      "note": "Feito com cuidado. Pensado para vocês."
+    },
+    "nav": {
+      "label": "Navegação principal",
+      "items": ["Modelos", "Como funciona", "Recursos", "Dúvidas"],
+      "contact": "Vamos conversar",
+      "locale": "Idioma da página",
+      "open": "Abrir menu",
+      "close": "Fechar menu",
+      "login": "Entrar",
+      "signup": "Criar conta"
+    },
+    "skip": "Ir para o conteúdo",
+    "demoLabel": "Exemplo ilustrativo",
+    "heroBadge": "Uma história. Um lugar para celebrar.",
+    "benefits": [
+      "Um site com a cara de vocês",
+      "Cada detalhe no seu lugar",
+      "Mais perto de quem importa"
+    ],
+    "models": {
+      "eyebrow": "CADA AMOR TEM SEU JEITO",
+      "title": "Qual estilo conta a sua história?",
+      "description": "Três olhares para o mesmo dia especial. Explore os detalhes e descubra o que combina com vocês.",
+      "example": "Ver exemplo",
+      "items": [
+        {
+          "name": "Clássico",
+          "description": "Elegância que atravessa o tempo.",
+          "tags": ["Composição delicada", "Detalhes atemporais"]
+        },
+        {
+          "name": "Natural",
+          "description": "Leve como os melhores momentos.",
+          "tags": ["Fotografia em destaque", "Inspiração orgânica"]
+        },
+        {
+          "name": "Contemporâneo",
+          "description": "Personalidade em cada escolha.",
+          "tags": ["Composição marcante", "Linhas essenciais"]
+        }
+      ]
+    },
+    "steps": {
+      "eyebrow": "DO PRIMEIRO DETALHE AO GRANDE DIA",
+      "title": "Menos complicação. Mais vocês.",
+      "description": "Um caminho pensado para transformar a história de vocês em um lugar de encontro.",
+      "items": [
+        {
+          "title": "Encontrem seu estilo",
+          "body": "Comecem pelo que faz sentido para vocês: um visual clássico, natural ou contemporâneo."
+        },
+        {
+          "title": "Deem o toque de vocês",
+          "body": "Imaginem as fotos, a história e os pequenos detalhes que tornam esse dia único."
+        },
+        {
+          "title": "Reúnam quem importa",
+          "body": "Um endereço para compartilhar a celebração e deixar os convidados mais perto."
+        }
+      ]
+    },
+    "experience": {
+      "eyebrow": "CUIDADO EM CADA ENCONTRO",
+      "title": "Bom para vocês. Simples para os convidados.",
+      "description": "Do convite aos detalhes da celebração, uma experiência pensada para que ninguém perca o que importa.",
+      "note": "Explore o conceito abaixo. Todos os nomes e respostas são fictícios.",
+      "tabs": [
+        "Saber onde ir",
+        "Responder com facilidade",
+        "Ver tudo organizado"
+      ],
+      "detailTitle": [
+        "Os detalhes, sem desencontros.",
+        "Um convite para estar perto.",
+        "Cada resposta no seu lugar."
+      ],
+      "detailBody": [
+        "Data, horário e local reunidos em uma página que também faz sentido no celular.",
+        "Um percurso curto para o convidado dizer se vai celebrar com vocês.",
+        "Uma visão clara de quem estará presente, sem perder os detalhes entre mensagens."
+      ],
+      "ceremony": "Cerimônia",
+      "reception": "Recepção",
+      "fictionalVenue": "Local fictício · exemplo de agenda",
+      "responseTitle": "Vamos celebrar juntos?",
+      "responseBody": "Ana e Rafael, vocês fazem parte desta história.",
+      "yes": "Estaremos lá",
+      "no": "Não poderemos ir",
+      "simulate": "Simular resposta",
+      "reset": "Recomeçar exemplo",
+      "simulation": "Demonstração interativa. Nenhuma resposta é enviada ou guardada.",
+      "summary": "Resumo do exemplo",
+      "confirmed": "Confirmados",
+      "declined": "Não poderão ir",
+      "pending": "Aguardando",
+      "guests": "convidados fictícios",
+      "saved": "Simulação concluída. Veja como as respostas ficam organizadas."
+    },
+    "founders": {
+      "eyebrow": "DE UM CASAL PARA OUTROS CASAIS",
+      "title": "Design, tecnologia e cuidado. Juntos.",
+      "body": "O MyWedding nasceu do encontro entre o desenvolvimento de Rodrigo e o olhar de design de Maria Eduarda. Somos um casal construindo um espaço para que outras histórias tenham o seu próprio jeito de ser contadas.",
+      "note": "Da primeira ideia ao último detalhe, vocês conversam com quem está criando o MyWedding.",
+      "developer": "Desenvolvimento",
+      "designer": "Design",
+      "instagram": "Instagram",
+      "phone": "Telefone",
+      "contact": "Converse com a gente",
+      "caption": "Fotografia ilustrativa · Pexels"
+    },
+    "offer": {
+      "eyebrow": "UM DIA ÚNICO COMEÇA COM UMA BOA CONVERSA",
+      "title": "Vamos dar espaço à história de vocês?",
+      "body": "Contem o que imaginam para o casamento. Queremos conhecer os detalhes, ouvir as ideias e pensar nesse próximo capítulo com vocês.",
+      "action": "Falar com Rodrigo",
+      "secondary": "Falar com Maria Eduarda",
+      "note": "Contato direto com os fundadores. Sem formulário ou cadastro."
+    },
+    "faq": {
+      "eyebrow": "É BOM SABER",
+      "title": "Pequenas dúvidas. Respostas claras.",
+      "items": [
+        {
+          "question": "Preciso criar uma conta para ver os modelos?",
+          "answer": "Não. Os três estilos e a demonstração podem ser explorados livremente, sem cadastro."
+        },
+        {
+          "question": "Os modelos mostram casamentos reais?",
+          "answer": "São exemplos ilustrativos, criados para apresentar os estilos do MyWedding. Clara e Miguel, a data, o local e as respostas dos convidados são fictícios. As fotografias são de stock e não representam clientes."
+        },
+        {
+          "question": "Posso conhecer o MyWedding em português do Brasil e de Portugal?",
+          "answer": "Sim. Use o seletor de idioma no topo ou no rodapé para alternar entre pt-BR e pt-PT. Cada versão tem seu próprio endereço."
+        },
+        {
+          "question": "Podemos conversar sobre um estilo diferente?",
+          "answer": "Sim. Falem com Rodrigo ou Maria Eduarda e contem o que imaginam. A conversa ajuda a entender o que faz sentido para a história de vocês."
+        },
+        {
+          "question": "Onde encontro valores e condições?",
+          "answer": "Os planos e valores ainda não estão definidos. Para conversar sobre a proposta, use os contatos dos fundadores. Não há cobrança nem contratação nesta página."
+        },
+        {
+          "question": "Posso confirmar presença ou enviar presentes aqui?",
+          "answer": "A confirmação exibida é uma demonstração: não envia nem guarda respostas. Esta página não recebe presentes ou pagamentos. Esses percursos terão condições próprias quando estiverem disponíveis."
+        }
+      ]
+    },
+    "closing": {
+      "eyebrow": "O PRÓXIMO CAPÍTULO É DE VOCÊS",
+      "title": "O amor está nos detalhes.\nO site também pode estar.",
+      "body": "Encontrem a inspiração para reunir tudo que torna esse dia tão especial.",
+      "action": "Encontre seu estilo",
+      "secondary": "Vamos conversar"
+    },
+    "footer": {
+      "tagline": "Um lugar para celebrar a história de vocês.",
+      "navigation": "Explore",
+      "contact": "Conheça os fundadores",
+      "locale": "Escolha seu português",
+      "note": "MyWedding · Feito por Rodrigo & Maria Eduarda.",
+      "credits": "Fotografias ilustrativas: Pexels."
+    }
+  },
+  "Demo": {
+    "title": "Um dia. Três formas de contar.",
+    "description": "Mude o estilo e explore a mesma história.",
+    "label": "Demonstração · Casamento fictício",
+    "back": "Voltar ao MyWedding",
+    "ourStory": "A nossa história",
+    "story": "Entre encontros, risadas e planos, escolhemos caminhar juntos. Agora queremos celebrar esse novo capítulo com as pessoas que fazem parte da nossa história.",
+    "day": "O nosso dia",
+    "rsvp": "Confirmação de presença",
+    "note": "Este é um exemplo ilustrativo de site. Não é um casamento real e nenhuma resposta é enviada.",
+    "choose": "Escolha o estilo",
+    "styleNames": ["Clássico", "Natural", "Contemporâneo"]
+  },
+  "Auth": {
+    "skip": "Ir para o formulário",
+    "back": "Voltar ao site",
+    "eyebrow": "O ESPAÇO DE VOCÊS",
+    "credentials": "Dados de acesso",
+    "fields": {
+      "email": "E-mail",
+      "password": "Senha",
+      "confirmation": "Confirme a senha"
+    },
+    "showPassword": "Mostrar {field}",
+    "hidePassword": "Ocultar {field}",
+    "passwordHint": "Neste exemplo, use pelo menos 8 caracteres.",
+    "forgotPassword": "Esqueci minha senha",
+    "demoNote": "Demonstração da interface. Os dados não são enviados ou guardados.",
+    "noScript": "Ative o JavaScript para interagir com esta demonstração.",
+    "footer": "Cada história merece o seu espaço.",
+    "login": {
+      "title": "Bem-vindo de volta.",
+      "description": "Seu próximo capítulo começa por aqui.",
+      "submit": "Entrar",
+      "alternate": "Ainda não tem uma conta?"
+    },
+    "signup": {
+      "title": "Crie a sua conta.",
+      "description": "Um lugar só de vocês, desde o primeiro detalhe.",
+      "submit": "Criar conta",
+      "alternate": "Já tem uma conta?"
+    },
+    "errors": {
+      "emailRequired": "Informe seu e-mail.",
+      "emailInvalid": "Confira o formato do e-mail.",
+      "passwordRequired": "Informe sua senha.",
+      "passwordShort": "Use pelo menos 8 caracteres neste exemplo.",
+      "confirmationRequired": "Confirme sua senha.",
+      "confirmationMismatch": "As senhas precisam ser iguais."
+    },
+    "feedback": {
+      "login": "Campos validados. Esta interface ainda não autentica nem dá acesso a uma conta.",
+      "signup": "Campos validados. Nenhuma conta foi criada; esta é uma demonstração da interface.",
+      "recovery": "A recuperação ainda não está conectada. Nenhum e-mail foi enviado."
+    },
+    "showConfirmation": "Mostrar confirmação da senha",
+    "hideConfirmation": "Ocultar confirmação da senha"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "review_date": "2026-10-16",
+  "timezone": "Europe/Lisbon",
+  "scope": "Read-only environment checks, npm metadata and vinext static compatibility scan. No migration, deployment, real Auth flow or email delivery was executed.",
+  "project": {
+    "next": "16.4.1",
+    "react": "19.3.1",
+    "next_intl": "4.14.9",
+    "node_observed": "22.15.0",
+    "build_mode": "static export, unchanged"
+  },
+  "vinext_scan": {
+    "command": "npm exec --yes --package=vinext@1.2.1 -- vinext check",
+    "exit_code": 0,
+    "reported_compatibility_percent": 96,
+    "supported": 11,
+    "partial": 1,
+    "issues": 0,
+    "supported_imports": ["next/navigation", "next/link", "next/image"],
+    "compatible_libraries": ["next-intl", "tailwindcss"],
+    "partial_area": "images: resizing needs an optimizer; no image optimizer was configured",
+    "app_router_pages_reported": 5,
+    "layouts_reported": 2,
+    "limits": "Scanner result only. No vinext init, dev/build, workerd runtime, cookies, session refresh, RLS, CPU measurement or security audit."
+  },
+  "registry_metadata": {
+    "vinext_version": "1.2.1",
+    "vinext_node_engine": ">=22",
+    "opennext_cloudflare_version": "1.20.12",
+    "opennext_next_peer": ">=15.5.28 <16 || >=16.4.1",
+    "opennext_wrangler_peer": "^4.148.0",
+    "installed_as_project_dependencies": false
+  },
+  "local_email_prerequisites": {
+    "docker_cli_present": true,
+    "docker_engine_available": false,
+    "docker_observation": "dockerDesktopLinuxEngine named pipe not found",
+    "wsl_distributions_observed": ["Ubuntu", "docker-desktop"],
+    "supabase_cli_on_path": false,
+    "mailpit_running_or_tested": false
+  },
+  "initial_sandbox_checks": "npm/Corepack registry DNS failed and WSL access was denied in the restricted shell. Read-only checks outside the sandbox succeeded for npm metadata and WSL inventory; Docker engine remained unavailable.",
+  "external_mutations": [],
+  "application_code_changes": []
+}

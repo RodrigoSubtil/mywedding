@@ -1,0 +1,201 @@
+{
+  "generated": "2026-10-15",
+  "approved_reference": "design/brand/reference/mywedding-aprovada-2026-10-15.svg",
+  "reference_sha256": "a03341ab71d4e55b77d73a211293b86442602adcb1c6b8ef27d7283fbc80012b",
+  "master": "design/brand/mywedding.svg",
+  "master_sha256": "389655d31941565bd6b6345e76460695af90844cb1d1b89397e66d06d66eaf5c",
+  "font_sources": [
+    {
+      "path": "design/fonts/fraunces-variable.ttf",
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    },
+    {
+      "path": "design/fonts/dm-sans-variable.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "mywedding",
+      "label": "Principal · verde + terracota",
+      "svg": "design/brand/variants/mywedding.svg",
+      "svg_sha256": "6e22eefd0f06572ee24c0d18ff84cc713caabd600999e5ff5b8b019d77d6f33f",
+      "png": "output/brand/png/mywedding.png",
+      "png_width": 1600,
+      "transparent": true,
+      "recommended_surface": "background",
+      "png_sha256": "b35e5a35a9ed8accfd63af3e7ee9480b2ff0a2592eb749103f7899424f4bf916",
+      "png_height": 360,
+      "png_bytes": 44970
+    },
+    {
+      "name": "mywedding-inversa",
+      "label": "Inversa · marfim",
+      "svg": "design/brand/variants/mywedding-inversa.svg",
+      "svg_sha256": "53dcf4a84d960ab8994d0de1fb56c127bd4518cb2131d1db8962312772bed0d4",
+      "png": "output/brand/png/mywedding-inversa.png",
+      "png_width": 1600,
+      "transparent": true,
+      "recommended_surface": "primary",
+      "png_sha256": "e2b42717562434e2f8d7cf94070b287b50bff481987ba6c194c97952c8b8304b",
+      "png_height": 360,
+      "png_bytes": 43690
+    },
+    {
+      "name": "mywedding-verde",
+      "label": "Uma cor · verde",
+      "svg": "design/brand/variants/mywedding-verde.svg",
+      "svg_sha256": "dc2242d17c2b8264d7fa35ad938e43febaf262325ff219f399bdbc4c0bcf3642",
+      "png": "output/brand/png/mywedding-verde.png",
+      "png_width": 1600,
+      "transparent": true,
+      "recommended_surface": "surface",
+      "png_sha256": "158cd8e052a70c5f931adfd6ced8dc09c8613df371dea72e7ecbaf4db33639ed",
+      "png_height": 360,
+      "png_bytes": 44225
+    },
+    {
+      "name": "mywedding-terracota",
+      "label": "Uma cor · terracota",
+      "svg": "design/brand/variants/mywedding-terracota.svg",
+      "svg_sha256": "7e8db67d598fce52610db3e5bc70d6287b914568fe117b2a42bccfe6c23f23c6",
+      "png": "output/brand/png/mywedding-terracota.png",
+      "png_width": 1600,
+      "transparent": true,
+      "recommended_surface": "background",
+      "png_sha256": "eb02c3e94a442de72d86fd21d6a16bf32307f358e0865128caee81b16531de63",
+      "png_height": 360,
+      "png_bytes": 44463
+    },
+    {
+      "name": "mywedding-branca",
+      "label": "Uma cor · branca",
+      "svg": "design/brand/variants/mywedding-branca.svg",
+      "svg_sha256": "b38b4d41e642d58828be894b38e3917afbc9d44dacfcb7d65aca3d1703b2e7af",
+      "png": "output/brand/png/mywedding-branca.png",
+      "png_width": 1600,
+      "transparent": true,
+      "recommended_surface": "primary",
+      "png_sha256": "6a30b38dcb3ff0a23c50f9f3f7c69794c39ff2d2730ac8da37ca9c52757de2c0",
+      "png_height": 360,
+      "png_bytes": 34886
+    },
+    {
+      "name": "mywedding-carvao",
+      "label": "Uma cor · carvão",
+      "svg": "design/brand/variants/mywedding-carvao.svg",
+      "svg_sha256": "ba9449ec98b7d4a3870c223e8ddf718265b162d350e919ab8981331d7e69d6cf",
+      "png": "output/brand/png/mywedding-carvao.png",
+      "png_width": 1600,
+      "transparent": true,
+      "recommended_surface": "surface-alt",
+      "png_sha256": "4e099b7888e210dc4297ca418ec91a05212fd3cf30f70b093cc5e491f55c7676",
+      "png_height": 360,
+      "png_bytes": 42759
+    },
+    {
+      "name": "simbolo",
+      "label": "Símbolo · terracota",
+      "svg": "design/brand/variants/simbolo.svg",
+      "svg_sha256": "dc2da8fce362571b89a7700d47b542d3866c084243c47865329a6073ef47e777",
+      "png": "output/brand/png/simbolo.png",
+      "png_width": 1024,
+      "transparent": true,
+      "recommended_surface": "background",
+      "png_sha256": "8ac81ff792f1cff9ce7938bb9536c2b7fbcee2a3f57e58c485c6cc925f08d8fa",
+      "png_height": 1024,
+      "png_bytes": 24767
+    },
+    {
+      "name": "simbolo-verde",
+      "label": "Símbolo · verde",
+      "svg": "design/brand/variants/simbolo-verde.svg",
+      "svg_sha256": "0c31ab09c55f7f4a0d3250eb528de17da50fbf8f17a0560c3d23d646f8557a01",
+      "png": "output/brand/png/simbolo-verde.png",
+      "png_width": 1024,
+      "transparent": true,
+      "recommended_surface": "primary-soft",
+      "png_sha256": "f107b354f6bee086b040e01104b5fc5a77b031b028861c765cdb7621aabb64e5",
+      "png_height": 1024,
+      "png_bytes": 24623
+    },
+    {
+      "name": "simbolo-branco",
+      "label": "Símbolo · branco",
+      "svg": "design/brand/variants/simbolo-branco.svg",
+      "svg_sha256": "d0bff294802f8af821f7ca39aa4839ab068ea4026081c9daa3d7ccdb42177bed",
+      "png": "output/brand/png/simbolo-branco.png",
+      "png_width": 1024,
+      "transparent": true,
+      "recommended_surface": "primary",
+      "png_sha256": "0190608eaa32cb84b541092fa4f79009266912f2e4c844f4fa39ef6b3483ac54",
+      "png_height": 1024,
+      "png_bytes": 15158
+    },
+    {
+      "name": "icone-app",
+      "label": "Ícone · fundo verde",
+      "svg": "design/brand/variants/icone-app.svg",
+      "svg_sha256": "eb8c7c4c3ab07050bb57b22625f11c501dacfd0caed665e0ece59b79c167b96d",
+      "png": "output/brand/png/icone-app.png",
+      "png_width": 1024,
+      "transparent": false,
+      "recommended_surface": "surface",
+      "png_sha256": "86cb97f0ee765b682c40c47da4c2dc982098bdadfa97fd9afb6afed71bc7305d",
+      "png_height": 1024,
+      "png_bytes": 47603
+    },
+    {
+      "name": "assinatura-pt-BR",
+      "label": "Assinatura · pt-BR",
+      "svg": "design/brand/variants/assinatura-pt-BR.svg",
+      "svg_sha256": "ed060d9ae27377ace4f0ecc31633a0cf12221e9843ab49981419e664d4617897",
+      "png": "output/brand/png/assinatura-pt-BR.png",
+      "png_width": 1920,
+      "transparent": true,
+      "recommended_surface": "background",
+      "png_sha256": "e1b667b13c624f3e92549b4a8318ccc3376c309734d46cb02021757794f5c382",
+      "png_height": 480,
+      "png_bytes": 55899
+    },
+    {
+      "name": "assinatura-pt-BR-inversa",
+      "label": "Assinatura inversa · pt-BR",
+      "svg": "design/brand/variants/assinatura-pt-BR-inversa.svg",
+      "svg_sha256": "a97928a06f2b0f8b616d9f88126c06091435afb0f7cd130c6a4c65c88021ba83",
+      "png": "output/brand/png/assinatura-pt-BR-inversa.png",
+      "png_width": 1920,
+      "transparent": true,
+      "recommended_surface": "primary",
+      "png_sha256": "895e4cef8e2e1746ad70e8bb6fe84c690b00ce106d94ba823db8db8accaa3cb1",
+      "png_height": 480,
+      "png_bytes": 54782
+    },
+    {
+      "name": "assinatura-pt-PT",
+      "label": "Assinatura · pt-PT",
+      "svg": "design/brand/variants/assinatura-pt-PT.svg",
+      "svg_sha256": "7472c0a91bd72b2f9f0cb9b10b3411c3a61b63a2c5780fb478cb31e04c51d566",
+      "png": "output/brand/png/assinatura-pt-PT.png",
+      "png_width": 1920,
+      "transparent": true,
+      "recommended_surface": "background",
+      "png_sha256": "f5cbbce89db5e583aae68b184c336f0bdcf1ce5d737def1bd9e1cccb745feacc",
+      "png_height": 480,
+      "png_bytes": 54859
+    },
+    {
+      "name": "assinatura-pt-PT-inversa",
+      "label": "Assinatura inversa · pt-PT",
+      "svg": "design/brand/variants/assinatura-pt-PT-inversa.svg",
+      "svg_sha256": "a4d42dc3f28d2acc096aae9661188bf77eaa746fea0c24c1a48e3e5e800ab3f3",
+      "png": "output/brand/png/assinatura-pt-PT-inversa.png",
+      "png_width": 1920,
+      "transparent": true,
+      "recommended_surface": "primary",
+      "png_sha256": "f43c3a5886203e8749cead77dc783e6484effb124c2b4f183493478cd3e42055",
+      "png_height": 480,
+      "png_bytes": 53768
+    }
+  ]
+}

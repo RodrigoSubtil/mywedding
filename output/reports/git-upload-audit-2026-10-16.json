@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-16T16:29:26.552Z",
+  "scope": "Staged Git paths and common secret patterns only; not a security certification or binary-content audit.",
+  "origin": "https://github.com/RodrigoSubtil/mywedding.git",
+  "branch": "main",
+  "files": 196,
+  "textFiles": 139,
+  "bytes": 43733410,
+  "maxFileBytes": 6339926,
+  "findings": [],
+  "passed": true
+}

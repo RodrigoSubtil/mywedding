@@ -1,0 +1,142 @@
+/* MyWedding · style guide v1 · 15/10/2026
+   Fonte de verdade dos valores visuais. Regras de uso: STYLE_GUIDE.md.
+   Fontes locais, originais Google Fonts; licenças em fonts/OFL-*.txt. */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("./fonts/fraunces-variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("./fonts/dm-sans-variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+
+  /* Bases e superfícies */
+  --mw-color-background: #FBF8F3;
+  --mw-color-surface: #FFFFFF;
+  --mw-color-surface-alt: #F0EBE2;
+  --mw-color-text: #252A25;
+  --mw-color-text-muted: #646B62;
+  --mw-color-border: #DEDCD3;
+  --mw-color-border-control: #888D83;
+
+  /* Marca e ações */
+  --mw-color-primary: #354C42;
+  --mw-color-primary-hover: #293E34;
+  --mw-color-primary-active: #203229;
+  --mw-color-primary-soft: #E7EDE6;
+  --mw-color-on-primary: #FFFFFF;
+  --mw-color-accent: #9C543E;
+  --mw-color-accent-hover: #864633;
+  --mw-color-accent-active: #713B2C;
+  --mw-color-accent-soft: #F5E5DE;
+  --mw-color-on-accent: #FFFFFF;
+
+  /* Feedback funcional: usar só quando houver esse significado. */
+  --mw-color-success: #276345;
+  --mw-color-success-soft: #E7F1EA;
+  --mw-color-warning: #795415;
+  --mw-color-warning-soft: #FAF0D9;
+  --mw-color-danger: #A2373A;
+  --mw-color-danger-soft: #F9E9E8;
+  --mw-color-info: #315D7A;
+  --mw-color-info-soft: #E8F0F7;
+  --mw-color-disabled-bg: #F0EBE2;
+  --mw-color-disabled-text: #646B62;
+  --mw-color-focus: #9C543E;
+  --mw-color-focus-inverse: #FBF8F3;
+
+  /* Tipografia: duas famílias; normal 400/500 e UI 400/500/600. */
+  --mw-font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --mw-font-body: "DM Sans", Arial, sans-serif;
+  --mw-font-display-variation: "SOFT" 50, "WONK" 1;
+  --mw-weight-regular: 400;
+  --mw-weight-medium: 500;
+  --mw-weight-semibold: 600;
+  --mw-text-display: clamp(2.25rem, 1.625rem + 2.5vw, 3.5rem);
+  --mw-text-h2: clamp(1.75rem, 1.375rem + 1.5vw, 2.5rem);
+  --mw-text-h3: clamp(1.375rem, 1.3125rem + 0.25vw, 1.5rem);
+  --mw-text-lead: 1.125rem;
+  --mw-text-body: 1rem;
+  --mw-text-small: 0.875rem;
+  --mw-text-caption: 0.8125rem;
+  --mw-leading-display: 1.12;
+  --mw-leading-heading: 1.2;
+  --mw-leading-body: 1.6;
+  --mw-leading-control: 1.25;
+  --mw-tracking-display: -0.025em;
+  --mw-tracking-heading: -0.015em;
+  --mw-tracking-label: 0.06em;
+  /* Assinatura vetorial: largura proporcional à escala de título existente. */
+  --mw-brand-width: calc(var(--mw-text-h3) * 6);
+
+  /* Escala de espaços: base de 4 px com raiz padrão de 16 px. */
+  --mw-space-1: 0.25rem;
+  --mw-space-2: 0.5rem;
+  --mw-space-3: 0.75rem;
+  --mw-space-4: 1rem;
+  --mw-space-6: 1.5rem;
+  --mw-space-8: 2rem;
+  --mw-space-12: 3rem;
+  --mw-space-16: 4rem;
+  --mw-space-20: 5rem;
+  --mw-container: 70rem;
+  --mw-copy-width: 64ch;
+  --mw-gutter: 2rem;
+  --mw-section-space: var(--mw-space-20);
+  --mw-grid-gap: var(--mw-space-6);
+  --mw-card-padding: var(--mw-space-6);
+
+  /* Bordas e forma */
+  --mw-border-width: 1px;
+  --mw-radius-control: 0.5rem;
+  --mw-radius-small: 0.75rem;
+  --mw-radius-card: 1rem;
+  --mw-radius-pill: 999px;
+  --mw-control-height: 3rem;
+  --mw-control-compact-height: 2.75rem;
+  --mw-focus-width: 3px;
+  --mw-focus-offset: 3px;
+  --mw-shadow-none: none;
+  --mw-shadow-soft: 0 4px 16px rgb(37 42 37 / 6%);
+  --mw-shadow-floating: 0 8px 24px rgb(37 42 37 / 10%);
+
+  /* Movimento discreto e reversível */
+  --mw-motion-fast: 120ms;
+  --mw-motion-normal: 180ms;
+  --mw-motion-ease: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (max-width: 63.99rem) {
+  :root {
+    --mw-gutter: var(--mw-space-6);
+    --mw-section-space: var(--mw-space-16);
+  }
+}
+
+@media (max-width: 47.99rem) {
+  :root {
+    /* 20 px é a exceção documentada para margem lateral em ecrãs pequenos. */
+    --mw-gutter: 1.25rem;
+    --mw-section-space: var(--mw-space-12);
+    --mw-grid-gap: var(--mw-space-4);
+    --mw-card-padding: var(--mw-space-4);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --mw-motion-fast: 0ms;
+    --mw-motion-normal: 0ms;
+  }
+}

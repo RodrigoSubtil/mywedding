@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-10-15T17:27:09.593210+00:00",
+  "scope": "Local documentary references, visual tokens, font/license integrity and declared contrast pairs only; no application/runtime/publication audit.",
+  "files_scanned": 182,
+  "local_links_checked": 378,
+  "json_files_parsed": 19,
+  "visual_tokens_defined": 80,
+  "visual_tokens_referenced": 76,
+  "font_and_license_hashes_checked": 4,
+  "contrasts_recalculated": 36,
+  "contrasts_passed": 36,
+  "git_initialized": false,
+  "application_manifest_present": true,
+  "errors": [],
+  "passed": true,
+  "planning_cut": {
+    "decision": "D19",
+    "status": "Recommendation only; no implementation or publication",
+    "resources_classified": 115,
+    "classification": {
+      "V1": 45,
+      "V1 recorte": 30,
+      "Depois": 40
+    },
+    "all_ids_unique_and_consecutive": true,
+    "views": 28,
+    "flows": 21,
+    "markdown_files_checked": 9,
+    "table_columns_consistent": true,
+    "code_fences_balanced": true,
+    "source_asset_design_tool_files_compared_by_sha256": 110,
+    "changed_protected_files": [],
+    "runtime_or_usability_validation": false
+  }
+}

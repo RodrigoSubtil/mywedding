@@ -1,0 +1,52 @@
+{
+  "generated": "2026-10-15",
+  "purpose": "Fotografias de stock ilustrativas; não representam clientes.",
+  "images": [
+    {
+      "source": "design/assets/pexels/photos/12-casal-costas-parque-pexels-15939733.jpg",
+      "output": "public/images/natural.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 138062,
+      "sha256": "b80482f5ab91c7110216597b03f529ab124ef81c947bbab8a736781bca65d4a3"
+    },
+    {
+      "source": "design/assets/pexels/photos/06-aliancas-copos-de-leite-pexels-4753767.jpg",
+      "output": "public/images/classico.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 33784,
+      "sha256": "ca921031db2bf490eb2b3a3938ebc2beb56c214831eddc7751fdfc1491e5fd96"
+    },
+    {
+      "source": "design/assets/pexels/photos/08-recepcao-branco-verde-pexels-12954015.jpg",
+      "output": "public/images/contemporaneo.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 115548,
+      "sha256": "079b7934a9628093368f785590a734eca6ccca59f4b1224ee08f203d1fc2f761"
+    },
+    {
+      "source": "design/assets/pexels/photos/05-casal-maos-buque-pexels-29858926.jpg",
+      "output": "public/images/editorial.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 31512,
+      "sha256": "90c141a447960cbb504a67365caf1315ade06e2f8fe91428e31f4bc5c44c5a52"
+    }
+  ],
+  "fonts": [
+    {
+      "source": "design/fonts/fraunces-variable.ttf",
+      "output": "public/fonts/fraunces-variable.woff2",
+      "bytes": 108980,
+      "sha256": "835ec851c3eaa66d7384c1589606d631741f99191910483d4bad21adac85dac3"
+    },
+    {
+      "source": "design/fonts/dm-sans-variable.ttf",
+      "output": "public/fonts/dm-sans-variable.woff2",
+      "bytes": 88996,
+      "sha256": "347975fe9bfcbc3702fcd99c1bc28551699e372dfb16b4c5ae466efbd6a635d0"
+    }
+  ]
+}

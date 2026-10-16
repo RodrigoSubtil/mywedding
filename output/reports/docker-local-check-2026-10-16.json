@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-10-16T16:25:24.606Z",
+  "project": "MyWedding",
+  "scope": "Local MyWedding Docker only. No hosted project, login integration, production email or publication.",
+  "command": "check",
+  "httpChecks": [
+    {
+      "url": "http://127.0.0.1:54321/auth/v1/health",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "http://127.0.0.1:54323/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "http://127.0.0.1:54324/api/v1/messages",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "authSettings": {
+    "GOTRUE_SMTP_HOST": "supabase_inbucket_MyWedding",
+    "GOTRUE_SMTP_PORT": "1025",
+    "GOTRUE_SECURITY_UPDATE_PASSWORD_REQUIRE_REAUTHENTICATION": "true",
+    "GOTRUE_PASSWORD_MIN_LENGTH": "12",
+    "GOTRUE_MAILER_AUTOCONFIRM": "false"
+  },
+  "services": [
+    {
+      "name": "supabase_db_MyWedding",
+      "running": true,
+      "health": "healthy",
+      "ports": [
+        {
+          "containerPort": "5432/tcp",
+          "hostPort": "54322",
+          "hostIp": "127.0.0.1"
+        }
+      ],
+      "volumeNames": [
+        "supabase_db_MyWedding"
+      ]
+    },
+    {
+      "name": "supabase_auth_MyWedding",
+      "running": true,
+      "health": "healthy",
+      "ports": [],
+      "volumeNames": []
+    },
+    {
+      "name": "supabase_rest_MyWedding",
+      "running": true,
+      "health": "running",
+      "ports": [],
+      "volumeNames": []
+    },
+    {
+      "name": "supabase_pg_meta_MyWedding",
+      "running": true,
+      "health": "healthy",
+      "ports": [],
+      "volumeNames": []
+    },
+    {
+      "name": "supabase_kong_MyWedding",
+      "running": true,
+      "health": "healthy",
+      "ports": [
+        {
+          "containerPort": "8000/tcp",
+          "hostPort": "54321",
+          "hostIp": "127.0.0.1"
+        }
+      ],
+      "volumeNames": []
+    },
+    {
+      "name": "supabase_inbucket_MyWedding",
+      "running": true,
+      "health": "healthy",
+      "ports": [
+        {
+          "containerPort": "8025/tcp",
+          "hostPort": "54324",
+          "hostIp": "127.0.0.1"
+        }
+      ],
+      "volumeNames": []
+    },
+    {
+      "name": "supabase_studio_MyWedding",
+      "running": true,
+      "health": "healthy",
+      "ports": [
+        {
+          "containerPort": "3000/tcp",
+          "hostPort": "54323",
+          "hostIp": "127.0.0.1"
+        }
+      ],
+      "volumeNames": []
+    }
+  ],
+  "originalContainersRetained": [
+    {
+      "name": "supabase_studio_MyWedding_before_loopback_1792166876466",
+      "id": "a3eb839ae58c25a9ba9d1f441fe925739de30a5ee6352a9389eec46e8cf2e64b",
+      "state": "exited"
+    },
+    {
+      "name": "supabase_inbucket_MyWedding_before_loopback_1792166874936",
+      "id": "d4b40fa1ed4aceacf967305341f63b517a77e09d0a09813793049d0b01bfe0b3",
+      "state": "exited"
+    },
+    {
+      "name": "supabase_kong_MyWedding_before_loopback_1792166873838",
+      "id": "4fc5686e84eb48c9dede3a33f4ef76d9751ced0b34dd803e49e1e484e8b36ada",
+      "state": "exited"
+    },
+    {
+      "name": "supabase_db_MyWedding_before_loopback_1792166872733",
+      "id": "9a46ea6d15b574ff40a145364d1bc73973df8cbf1c529ba565080cb621fc6e34",
+      "state": "exited"
+    }
+  ],
+  "optionalServices": [
+    {
+      "name": "supabase_edge_runtime_MyWedding",
+      "state": "exited"
+    },
+    {
+      "name": "supabase_storage_MyWedding",
+      "state": "exited"
+    },
+    {
+      "name": "supabase_realtime_MyWedding",
+      "state": "exited"
+    },
+    {
+      "name": "supabase_vector_MyWedding",
+      "state": "exited"
+    },
+    {
+      "name": "supabase_analytics_MyWedding",
+      "state": "exited"
+    }
+  ],
+  "otherContainersUnchanged": true,
+  "loopbackOnly": true,
+  "healthy": true
+}

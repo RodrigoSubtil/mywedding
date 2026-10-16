@@ -1,0 +1,21 @@
+{
+  "generated": "2026-10-15",
+  "purpose": "Cartões de partilha da landing; exemplo fictício e fotografia de stock.",
+  "source_photo": "design/assets/pexels/photos/12-casal-costas-parque-pexels-15939733.jpg",
+  "outputs": [
+    {
+      "path": "public/social/mywedding-pt-BR.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 70274,
+      "sha256": "6c1470b50bcab1b32c85c92a4714564242cf8bd0e21307dfcdd079b623c902bb"
+    },
+    {
+      "path": "public/social/mywedding-pt-PT.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 71896,
+      "sha256": "59333f0055a211236a9443b19b4b684f440885aae105014c628989bb5b29dc78"
+    }
+  ]
+}

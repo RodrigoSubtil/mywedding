@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-16T16:27:38.020076+00:00",
+  "scope": "Exportação local e referências; não comprova interações, publicação ou autenticação real.",
+  "routes": [
+    "/",
+    "/pt-BR/",
+    "/pt-PT/",
+    "/pt-BR/demonstracao/",
+    "/pt-BR/entrar/",
+    "/pt-BR/criar-conta/",
+    "/pt-PT/demonstracao/",
+    "/pt-PT/entrar/",
+    "/pt-PT/criar-conta/"
+  ],
+  "local_references_checked": 300,
+  "asset_hashes_checked": 9,
+  "translations_same_structure": true,
+  "errors": [],
+  "passed": true
+}

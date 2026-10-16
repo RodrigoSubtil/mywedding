@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-16T15:15:28.747128+00:00",
+  "scope": "Local documentary references, visual tokens, font/license integrity and declared contrast pairs only; no application/runtime/publication audit.",
+  "files_scanned": 185,
+  "local_links_checked": 398,
+  "json_files_parsed": 20,
+  "visual_tokens_defined": 80,
+  "visual_tokens_referenced": 76,
+  "font_and_license_hashes_checked": 4,
+  "contrasts_recalculated": 36,
+  "contrasts_passed": 36,
+  "git_initialized": false,
+  "application_manifest_present": true,
+  "errors": [],
+  "passed": true
+}

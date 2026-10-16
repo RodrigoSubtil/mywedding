@@ -1,0 +1,12 @@
+# Consistent source line endings; keep assets and licensed originals byte-identical.
+* text=auto eol=lf
+*.svg -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.webp -text
+*.ttf -text
+*.woff2 -text
+*.pdf -text
+*.zip -text
+design/fonts/** -text

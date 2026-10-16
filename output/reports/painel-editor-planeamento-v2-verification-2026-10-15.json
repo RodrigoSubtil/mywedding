@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-10-15T17:09:26.016717+00:00",
+  "scope": "Local documentary references, visual tokens, font/license integrity and declared contrast pairs only; no application/runtime/publication audit.",
+  "files_scanned": 181,
+  "local_links_checked": 365,
+  "json_files_parsed": 18,
+  "visual_tokens_defined": 80,
+  "visual_tokens_referenced": 76,
+  "font_and_license_hashes_checked": 4,
+  "contrasts_recalculated": 36,
+  "contrasts_passed": 36,
+  "git_initialized": false,
+  "application_manifest_present": true,
+  "errors": [],
+  "passed": true,
+  "planning_inventory": {
+    "resources": {
+      "count": 115,
+      "unique": 115,
+      "consecutive": true
+    },
+    "views": {
+      "count": 28,
+      "unique": 28,
+      "consecutive": true
+    },
+    "flows": {
+      "count": 21,
+      "unique": 21,
+      "consecutive": true
+    }
+  },
+  "supplementary_document_checks": {
+    "markdown_files_checked": 9,
+    "table_columns_consistent": true,
+    "code_fences_balanced": true,
+    "protected_source_asset_design_tool_files_compared_by_sha256": 110,
+    "changed_protected_files": [],
+    "evidence": "Read-only before/after hash comparison and documentary structure checks executed during this consolidation; no functional product or usability validation."
+  }
+}

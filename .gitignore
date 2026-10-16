@@ -1,0 +1,30 @@
+# Dependências, builds e cache locais
+node_modules/
+.next/
+*.tsbuildinfo
+out/
+dist/
+coverage/
+.venv/
+__pycache__/
+*.py[cod]
+.work/
+tmp/
+
+# Segredos e investigação pessoal; não colocar em public/ ou docs/
+.env*
+!.env.example
+private/
+*.log
+.DS_Store
+Thumbs.db
+
+# Supabase CLI runtime and local credentials
+supabase/.temp/
+supabase/.branches/
+supabase/.env
+supabase/signing_keys.json
+*.key
+*.pem
+*.p12
+*.pfx

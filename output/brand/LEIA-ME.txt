@@ -1,0 +1,24 @@
+MYWEDDING - KIT DA MARCA - 15/10/2026
+
+SVG: vetores em contornos, ampliáveis, sem fontes externas.
+PNG: derivados RGBA com transparência em alta resolução.
+O fundo apresentado no catálogo ilustra a aplicação; não acompanha as logos.
+Exceção: icone-app tem fundo verde intencional.
+
+mywedding: versão principal verde + terracota para fundo claro.
+mywedding-inversa: marfim para fundo verde/escuro.
+mywedding-verde, terracota, branca e carvao: uma cor.
+simbolo, simbolo-verde e simbolo-branco: folha isolada para espaços pequenos.
+assinatura-pt-BR e assinatura-pt-PT: nome e frase de apoio correspondente.
+As assinaturas também têm versões inversas.
+
+Preservar recortes nas letras, folha no i, ponto final e proporções.
+Não usar a versão principal sobre verde escuro: escolher inversa/branca.
+Largura mínima recomendada: 120 px para o nome; 20 px para o símbolo.
+Em tamanhos menores, usar o símbolo ou ícone de aplicação.
+Não usar a folha como ícone genérico para tarefas ou recursos.
+
+As fontes de origem Fraunces e DM Sans são licenciadas sob SIL OFL.
+As licenças completas acompanham este pacote. Nenhuma fonte externa é
+necessária para abrir os SVGs/PNGs. As licenças das fontes não concedem
+direitos sobre o nome/marca MyWedding.
